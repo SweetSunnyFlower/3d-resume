@@ -10,7 +10,7 @@ test('serves local assets, refuses escapes and does not expose source tooling', 
   const page = await fetch(base);
   assert.equal(page.status, 200);
   assert.match(page.headers.get('content-type'), /text\/html/);
-  assert.match(await page.text(), /ATMOS/);
+  assert.match(await page.text(), /高兵兵/);
   assert.equal((await fetch(`${base}/server.mjs`)).status, 404);
   assert.equal((await fetch(`${base}/%2e%2e%2fpackage.json`)).status, 403);
   assert.equal((await fetch(`${base}/`, { method: 'POST' })).status, 405);

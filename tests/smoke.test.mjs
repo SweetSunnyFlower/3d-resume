@@ -3,10 +3,10 @@ import assert from 'node:assert/strict';
 import { facts } from '../src/data.js';
 import { readFile } from 'node:fs/promises';
 
-test('the experience contains the fifteen observed aviation facts', () => {
+test('the experience contains the fifteen resume highlights', () => {
   assert.equal(facts.length, 15);
-  assert.equal(facts[0].title, 'SKY BABIES');
-  assert.equal(facts.at(-1).title, 'RAISE YOUR SHADE');
+  assert.equal(facts[0].title, '高兵兵');
+  assert.equal(facts.at(-1).title, '感谢查看');
   assert.ok(facts.every((fact) => fact.source.startsWith('https://')));
 });
 
