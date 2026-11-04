@@ -1,0 +1,15 @@
+/* Local integration only. Original visual styling is preserved in main.css. */
+body { background: #495ed7; }
+[role="button"]:focus-visible { outline: 1px solid #fff; outline-offset: 10px; }
+.local-loading {
+  position: fixed; inset: 0; z-index: 20000; display: grid; place-content: center;
+  padding: 8vw; background: #495ed7; color: #fff; text-align: center;
+  font: 16px/1.6 "DM Sans", sans-serif; pointer-events: none;
+}
+.local-error { pointer-events: auto; }
+@media (prefers-reduced-motion: reduce) {
+  .intro__subtitle { animation: none; }
+  .intro__title, .intro__title h1 span, .hint, .about, .outro {
+    transition-duration: .01ms !important;
+  }
+}

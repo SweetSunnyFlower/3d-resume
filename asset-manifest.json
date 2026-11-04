@@ -1,0 +1,324 @@
+[
+  {
+    "path": "models/cloud_22.glb",
+    "origin": "https://atmos.leeroy.ca/models/cloud_22.glb",
+    "bytes": 166960,
+    "sha256": "d4ff4831fd4e8ebba58f0e5317952038e04b9e6849b9830e9b3ea34eb5fe61bc",
+    "originalSha256": "d4ff4831fd4e8ebba58f0e5317952038e04b9e6849b9830e9b3ea34eb5fe61bc"
+  },
+  {
+    "path": "models/planeur.glb",
+    "origin": "https://atmos.leeroy.ca/models/planeur.glb",
+    "bytes": 53752,
+    "sha256": "291aff15fe75ade1e194af7c628c00f31d5dcdc55da98ba1638bcf7c11c62ff1",
+    "originalSha256": "291aff15fe75ade1e194af7c628c00f31d5dcdc55da98ba1638bcf7c11c62ff1"
+  },
+  {
+    "path": "models/cloud_11.glb",
+    "origin": "https://atmos.leeroy.ca/models/cloud_11.glb",
+    "bytes": 95048,
+    "sha256": "9a989279f973db3d8d921c3a63ffdea5e9d3b92a4b7a4048cacd526c6699956c",
+    "originalSha256": "9a989279f973db3d8d921c3a63ffdea5e9d3b92a4b7a4048cacd526c6699956c"
+  },
+  {
+    "path": "models/elephant.glb",
+    "origin": "https://atmos.leeroy.ca/models/elephant.glb",
+    "bytes": 172988,
+    "sha256": "234d59b0f37d215f33372f1b21d6b3c6f06367cb0b8b0de08f6333d26f9d9683",
+    "originalSha256": "234d59b0f37d215f33372f1b21d6b3c6f06367cb0b8b0de08f6333d26f9d9683"
+  },
+  {
+    "path": "69381a98ad5a279793da.woff",
+    "origin": "https://atmos.leeroy.ca/69381a98ad5a279793da.woff",
+    "bytes": 29572,
+    "sha256": "c9fb382c132b1e033115db2a5534420f978d72c87db52b8a651dc1e299577678",
+    "originalSha256": "c9fb382c132b1e033115db2a5534420f978d72c87db52b8a651dc1e299577678"
+  },
+  {
+    "path": "main.js.LICENSE.txt",
+    "origin": "https://atmos.leeroy.ca/main.js.LICENSE.txt",
+    "bytes": 2087,
+    "sha256": "4e232316203fd5832be6ca3a554074348367124259fb9dd0bf279d6db72a0cac",
+    "originalSha256": "4e232316203fd5832be6ca3a554074348367124259fb9dd0bf279d6db72a0cac"
+  },
+  {
+    "path": "textures/radial-gradient.png",
+    "origin": "https://atmos.leeroy.ca/textures/radial-gradient.png",
+    "bytes": 94096,
+    "sha256": "bba96522b037c84cb2555572972e287e53730ddf1cc1689fb379130e4960fdf9",
+    "originalSha256": "bba96522b037c84cb2555572972e287e53730ddf1cc1689fb379130e4960fdf9"
+  },
+  {
+    "path": "draco/draco_decoder.js",
+    "origin": "https://atmos.leeroy.ca/draco/draco_decoder.js",
+    "bytes": 598957,
+    "sha256": "05550454d14b6822a39e281cd215ff37ea65154e700bb168c824cb2b058976c2",
+    "originalSha256": "05550454d14b6822a39e281cd215ff37ea65154e700bb168c824cb2b058976c2"
+  },
+  {
+    "path": "fav/favicon-32x32.png",
+    "origin": "https://atmos.leeroy.ca/fav/favicon-32x32.png",
+    "bytes": 1779,
+    "sha256": "d28ec0a75d8e8a5249d55c493327a6be8e9e1e38b0a07de1d5330de86c6b558d",
+    "originalSha256": "d28ec0a75d8e8a5249d55c493327a6be8e9e1e38b0a07de1d5330de86c6b558d"
+  },
+  {
+    "path": "fav/favicon-16x16.png",
+    "origin": "https://atmos.leeroy.ca/fav/favicon-16x16.png",
+    "bytes": 1094,
+    "sha256": "b16788f2e6864b9d09bea6a494cac2626cb12fe2570c5c6e4c39dd51ff9e2dad",
+    "originalSha256": "b16788f2e6864b9d09bea6a494cac2626cb12fe2570c5c6e4c39dd51ff9e2dad"
+  },
+  {
+    "path": "fav/site.webmanifest",
+    "origin": "https://atmos.leeroy.ca/fav/site.webmanifest",
+    "bytes": 426,
+    "sha256": "310b869434f0ee9d99a110e5ef6bfb41eac115bce2428f562ff5df14378519ff",
+    "originalSha256": "310b869434f0ee9d99a110e5ef6bfb41eac115bce2428f562ff5df14378519ff"
+  },
+  {
+    "path": "fav/apple-touch-icon.png",
+    "origin": "https://atmos.leeroy.ca/fav/apple-touch-icon.png",
+    "bytes": 19171,
+    "sha256": "1320de1b5152085a7a834d159a1f9212866edbc90c9b36800dc32ad579178ea2",
+    "originalSha256": "1320de1b5152085a7a834d159a1f9212866edbc90c9b36800dc32ad579178ea2"
+  },
+  {
+    "path": "android-chrome-192x192.png",
+    "origin": "https://atmos.leeroy.ca/fav/android-chrome-192x192.png",
+    "bytes": 21427,
+    "sha256": "7c065148b9b990e7b2dda304862ccdb57eae45fdf39e94bb4fe098ca21c61103",
+    "originalSha256": "7c065148b9b990e7b2dda304862ccdb57eae45fdf39e94bb4fe098ca21c61103"
+  },
+  {
+    "path": "android-chrome-512x512.png",
+    "origin": "https://atmos.leeroy.ca/fav/android-chrome-512x512.png",
+    "bytes": 137510,
+    "sha256": "9907dd820736e0ed6faf73f1fbee5a1b375ca58d30b7fa5ff4e9381437c39e9b",
+    "originalSha256": "9907dd820736e0ed6faf73f1fbee5a1b375ca58d30b7fa5ff4e9381437c39e9b"
+  },
+  {
+    "path": "8069ffca34f7abec8f31.mp3",
+    "origin": "https://atmos.leeroy.ca/8069ffca34f7abec8f31.mp3",
+    "bytes": 26140,
+    "sha256": "a287156d0a57cfc4b2007b27147790a7072bf933d8b2476facc5b04ff58924d2",
+    "originalSha256": "a287156d0a57cfc4b2007b27147790a7072bf933d8b2476facc5b04ff58924d2"
+  },
+  {
+    "path": "6ca15b60fc13e83999ca.mp3",
+    "origin": "https://atmos.leeroy.ca/6ca15b60fc13e83999ca.mp3",
+    "bytes": 2317209,
+    "sha256": "4297e5565f60d317b90a1ceb782fb8085052ecb610e8d4d3c4fd5af0137bc571",
+    "originalSha256": "4297e5565f60d317b90a1ceb782fb8085052ecb610e8d4d3c4fd5af0137bc571"
+  },
+  {
+    "path": "152989251ccdc1b521b7.mp3",
+    "origin": "https://atmos.leeroy.ca/152989251ccdc1b521b7.mp3",
+    "bytes": 73533,
+    "sha256": "5ec84894f05be8507b760c19f6c35521d67be44b94fc0638b9c7643c751bb44c",
+    "originalSha256": "5ec84894f05be8507b760c19f6c35521d67be44b94fc0638b9c7643c751bb44c"
+  },
+  {
+    "path": "e123bb992ebe4c317c10.mp3",
+    "origin": "https://atmos.leeroy.ca/e123bb992ebe4c317c10.mp3",
+    "bytes": 1898,
+    "sha256": "83c22b19c77c0cd1ab1df68921b63b57ce5558e83cec930342326d66ff17da7c",
+    "originalSha256": "83c22b19c77c0cd1ab1df68921b63b57ce5558e83cec930342326d66ff17da7c"
+  },
+  {
+    "path": "4ee96395e07a04577aab.ttf",
+    "origin": "https://atmos.leeroy.ca/4ee96395e07a04577aab.ttf",
+    "bytes": 72000,
+    "sha256": "9ae2da663d64342031e59b5fa680dd355171d021b7ebf83774efc7c0330ae7b5",
+    "originalSha256": "9ae2da663d64342031e59b5fa680dd355171d021b7ebf83774efc7c0330ae7b5"
+  },
+  {
+    "path": "86e747d8b10ce7e39527.otf",
+    "origin": "https://atmos.leeroy.ca/86e747d8b10ce7e39527.otf",
+    "bytes": 109080,
+    "sha256": "d03ca53b36bc91582529cdd990e290e2cff4ba3d010ce96c6ae8f798b30417cf",
+    "originalSha256": "d03ca53b36bc91582529cdd990e290e2cff4ba3d010ce96c6ae8f798b30417cf"
+  },
+  {
+    "path": "446c446a8a06cd725832.svg",
+    "origin": "https://atmos.leeroy.ca/446c446a8a06cd725832.svg",
+    "bytes": 723,
+    "sha256": "3e8246da8acb352d3543897e0eac724d7dcd80ad0acadb463932adfe497bff7e",
+    "originalSha256": "3e8246da8acb352d3543897e0eac724d7dcd80ad0acadb463932adfe497bff7e"
+  },
+  {
+    "path": "d7ca8e53d93f0c4d5484.json",
+    "origin": "https://atmos.leeroy.ca/d7ca8e53d93f0c4d5484.json",
+    "bytes": 43571,
+    "sha256": "1cb26f329688ea6dd3f64216484254777f1fa95d06308458965c5deea7e7164b",
+    "originalSha256": "1cb26f329688ea6dd3f64216484254777f1fa95d06308458965c5deea7e7164b"
+  },
+  {
+    "path": "ff1931f754696ae28e15.json",
+    "origin": "https://atmos.leeroy.ca/ff1931f754696ae28e15.json",
+    "bytes": 30416,
+    "sha256": "72f1fa81ba45f5d2a6a57a73ee7e31cdacbc7176deda3777f3da0e8f8459aa3a",
+    "originalSha256": "72f1fa81ba45f5d2a6a57a73ee7e31cdacbc7176deda3777f3da0e8f8459aa3a"
+  },
+  {
+    "path": "737ac14dc52bbb901031.woff2",
+    "origin": "https://atmos.leeroy.ca/737ac14dc52bbb901031.woff2",
+    "bytes": 22776,
+    "sha256": "36b9960b2e445144f0bd3272fdfbda970b74e26d33ec8ce5b9467c2b98e3e6cc",
+    "originalSha256": "36b9960b2e445144f0bd3272fdfbda970b74e26d33ec8ce5b9467c2b98e3e6cc"
+  },
+  {
+    "path": "e4b4f466a8acfa6ccf02.svg",
+    "origin": "https://atmos.leeroy.ca/e4b4f466a8acfa6ccf02.svg",
+    "bytes": 6548,
+    "sha256": "ab19659c0d82cec6927a8950ccc241e227c722edc15d92f7844fb96b8bca0bd8",
+    "originalSha256": "ab19659c0d82cec6927a8950ccc241e227c722edc15d92f7844fb96b8bca0bd8"
+  },
+  {
+    "path": "fonts/roboto-fallback.woff",
+    "origin": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxM.woff",
+    "bytes": 19824,
+    "sha256": "1570f866bf6eae82041e407280894a86ad2b8b275e01908ae156914dc693a4ed",
+    "originalSha256": "1570f866bf6eae82041e407280894a86ad2b8b275e01908ae156914dc693a4ed"
+  },
+  {
+    "path": "fonts/dm-sans-0.ttf",
+    "origin": "https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxhTg.ttf",
+    "bytes": 48280,
+    "sha256": "b0ae3e89a7d3ef2b1838bb4b1ceb0b17cc3435af061eee809d76aa623ff116e9",
+    "originalSha256": "b0ae3e89a7d3ef2b1838bb4b1ceb0b17cc3435af061eee809d76aa623ff116e9"
+  },
+  {
+    "path": "fonts/dm-sans-1.ttf",
+    "origin": "https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwARZthTg.ttf",
+    "bytes": 48200,
+    "sha256": "2a8e7f713ee79fbccdef3cef5c787aff47580299f7da60144961e7db2ec08211",
+    "originalSha256": "2a8e7f713ee79fbccdef3cef5c787aff47580299f7da60144961e7db2ec08211"
+  },
+  {
+    "path": "main.css",
+    "origin": "https://atmos.leeroy.ca/main.css",
+    "bytes": 11621,
+    "sha256": "7acbfa39ba242a712871dea4e00a3b2f5598c949bda790649783fb942f2cf71b",
+    "originalSha256": "4e5703bea58843426e9d4cf8c159796a4175d7123d22c45fd2445295ee000ac3"
+  },
+  {
+    "path": "benchmarks/d-adreno.json",
+    "origin": "https://unpkg.com/detect-gpu@4.0.25/dist/benchmarks/d-adreno.json",
+    "bytes": 1066,
+    "sha256": "aad4658c58cb5683b2820514e11b4fd0171d658ee1c3d2ce1ee6539ffb284029",
+    "originalSha256": "aad4658c58cb5683b2820514e11b4fd0171d658ee1c3d2ce1ee6539ffb284029"
+  },
+  {
+    "path": "benchmarks/d-apple.json",
+    "origin": "https://unpkg.com/detect-gpu@4.0.25/dist/benchmarks/d-apple.json",
+    "bytes": 753,
+    "sha256": "d2d937202a90eace9db952c910d2da727d57e41892583deac9338ca89e9c523c",
+    "originalSha256": "d2d937202a90eace9db952c910d2da727d57e41892583deac9338ca89e9c523c"
+  },
+  {
+    "path": "benchmarks/d-geforce.json",
+    "origin": "https://unpkg.com/detect-gpu@4.0.25/dist/benchmarks/d-geforce.json",
+    "bytes": 72994,
+    "sha256": "8f6184f6895114018a170d30b1b52c9aa81d28b01733cb74189a1804db624cc4",
+    "originalSha256": "8f6184f6895114018a170d30b1b52c9aa81d28b01733cb74189a1804db624cc4"
+  },
+  {
+    "path": "benchmarks/d-amd.json",
+    "origin": "https://unpkg.com/detect-gpu@4.0.25/dist/benchmarks/d-amd.json",
+    "bytes": 120524,
+    "sha256": "cfe0529f777373dbefdff2892aef505b341b0d624b7fe3a08389ac037845e04b",
+    "originalSha256": "cfe0529f777373dbefdff2892aef505b341b0d624b7fe3a08389ac037845e04b"
+  },
+  {
+    "path": "benchmarks/d-intel.json",
+    "origin": "https://unpkg.com/detect-gpu@4.0.25/dist/benchmarks/d-intel.json",
+    "bytes": 33284,
+    "sha256": "78c73bcb17638bceba530ef08726876f0564dbc6cbe0cf57844929074db9f0fb",
+    "originalSha256": "78c73bcb17638bceba530ef08726876f0564dbc6cbe0cf57844929074db9f0fb"
+  },
+  {
+    "path": "benchmarks/d-radeon.json",
+    "origin": "https://unpkg.com/detect-gpu@4.0.25/dist/benchmarks/d-radeon.json",
+    "bytes": 109263,
+    "sha256": "0086c9abf1707f18407d33aa297e905525bdb28533c5ea41f38e9bb3fb0a47f3",
+    "originalSha256": "0086c9abf1707f18407d33aa297e905525bdb28533c5ea41f38e9bb3fb0a47f3"
+  },
+  {
+    "path": "benchmarks/d-nvidia.json",
+    "origin": "https://unpkg.com/detect-gpu@4.0.25/dist/benchmarks/d-nvidia.json",
+    "bytes": 110808,
+    "sha256": "8b30ebd0974f48eb2e04c84cd9d83b136af3cff5713292951da789b92d8f69be",
+    "originalSha256": "8b30ebd0974f48eb2e04c84cd9d83b136af3cff5713292951da789b92d8f69be"
+  },
+  {
+    "path": "benchmarks/m-adreno.json",
+    "origin": "https://unpkg.com/detect-gpu@4.0.25/dist/benchmarks/m-adreno.json",
+    "bytes": 29610,
+    "sha256": "7e6b16b6839bf678f3543ee718f1dc783b50df9a2f283b88a7fe3fe1f67d40ae",
+    "originalSha256": "7e6b16b6839bf678f3543ee718f1dc783b50df9a2f283b88a7fe3fe1f67d40ae"
+  },
+  {
+    "path": "benchmarks/m-apple-ipad.json",
+    "origin": "https://unpkg.com/detect-gpu@4.0.25/dist/benchmarks/m-apple-ipad.json",
+    "bytes": 2826,
+    "sha256": "ed007920f00736ace3d9c7726352cae607e82116eba94965cdbb32b219274fa9",
+    "originalSha256": "ed007920f00736ace3d9c7726352cae607e82116eba94965cdbb32b219274fa9"
+  },
+  {
+    "path": "benchmarks/m-intel.json",
+    "origin": "https://unpkg.com/detect-gpu@4.0.25/dist/benchmarks/m-intel.json",
+    "bytes": 7354,
+    "sha256": "5dedaa2bffc052a28c20ad6c3c1311ce43e72606fdf29ac89afa55cf15bcacbb",
+    "originalSha256": "5dedaa2bffc052a28c20ad6c3c1311ce43e72606fdf29ac89afa55cf15bcacbb"
+  },
+  {
+    "path": "benchmarks/m-apple.json",
+    "origin": "https://unpkg.com/detect-gpu@4.0.25/dist/benchmarks/m-apple.json",
+    "bytes": 2848,
+    "sha256": "47714d2a733bdfdd90e2ea0fc188b7ef8fc8ec0e35c2f4d3c70dd93bb41bbe50",
+    "originalSha256": "47714d2a733bdfdd90e2ea0fc188b7ef8fc8ec0e35c2f4d3c70dd93bb41bbe50"
+  },
+  {
+    "path": "benchmarks/m-mali-t.json",
+    "origin": "https://unpkg.com/detect-gpu@4.0.25/dist/benchmarks/m-mali-t.json",
+    "bytes": 17737,
+    "sha256": "4e891b54f327cfdf6ac8f6158857d9c099c73288b2512425ad03e7cbe118f938",
+    "originalSha256": "4e891b54f327cfdf6ac8f6158857d9c099c73288b2512425ad03e7cbe118f938"
+  },
+  {
+    "path": "benchmarks/m-nvidia.json",
+    "origin": "https://unpkg.com/detect-gpu@4.0.25/dist/benchmarks/m-nvidia.json",
+    "bytes": 1013,
+    "sha256": "a6b93d08901f17fea3b4439f424b2889e6b11e195a0d5ef66b543a5d77de31d7",
+    "originalSha256": "a6b93d08901f17fea3b4439f424b2889e6b11e195a0d5ef66b543a5d77de31d7"
+  },
+  {
+    "path": "benchmarks/m-powervr.json",
+    "origin": "https://unpkg.com/detect-gpu@4.0.25/dist/benchmarks/m-powervr.json",
+    "bytes": 6593,
+    "sha256": "a3205432c594ccd6bc5730c431ac0aa87026d6dbf863181948fba019f63065cf",
+    "originalSha256": "a3205432c594ccd6bc5730c431ac0aa87026d6dbf863181948fba019f63065cf"
+  },
+  {
+    "path": "benchmarks/m-mali.json",
+    "origin": "https://unpkg.com/detect-gpu@4.0.25/dist/benchmarks/m-mali.json",
+    "bytes": 23042,
+    "sha256": "f42d31db8dcc082a834295e726a06acbc61954036c3e95e2691fdbf026fa51ae",
+    "originalSha256": "f42d31db8dcc082a834295e726a06acbc61954036c3e95e2691fdbf026fa51ae"
+  },
+  {
+    "path": "main.js",
+    "origin": "https://atmos.leeroy.ca/main.js?1500c8f510f79dd7e2d4",
+    "bytes": 1267982,
+    "sha256": "d7e496bad601e1eaaa325905a91656eadbb8258a581e3e079837d4916b637077",
+    "originalSha256": "f578430b4136fcba3f5fbbf44e263eddeb3b8b5dfdc393d1cf1c89e03daf035b"
+  },
+  {
+    "path": "index.html",
+    "origin": "https://atmos.leeroy.ca/",
+    "bytes": 4415,
+    "sha256": "d3fc4ee4dea4443766485af2c6bc7d912e19925a77ab14426d01af273e4fd062",
+    "originalSha256": "4620b6bfb8135786fe2afc27167ea20d0fa8eef9155454b8f93e09fa65097441"
+  }
+]

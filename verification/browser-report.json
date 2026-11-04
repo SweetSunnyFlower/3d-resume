@@ -1,0 +1,24 @@
+[
+  {
+    "viewport": "desktop",
+    "references": 15,
+    "wheel": true,
+    "about": true,
+    "soundToggle": true,
+    "replay": true,
+    "externalRequests": [],
+    "failed": [],
+    "errors": []
+  },
+  {
+    "viewport": "mobile",
+    "references": 15,
+    "wheel": true,
+    "about": true,
+    "soundToggle": true,
+    "replay": false,
+    "externalRequests": [],
+    "failed": [],
+    "errors": []
+  }
+]
