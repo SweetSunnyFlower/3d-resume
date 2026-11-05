@@ -22,6 +22,14 @@ npm run dev
 
 若端口占用：`PORT=4174 npm run dev`。服务只绑定本机地址。也可以将 `public/` 部署到任意支持普通静态文件的 HTTP 服务，不要直接双击 HTML 使用 `file://`。
 
+需要发布目录时执行：
+
+```sh
+npm run build
+```
+
+会把 `public/` 复制到 `dist/`，并输出文件数量、总体积与最大的几个资源，方便检查部署包。
+
 ## 文件结构
 
 ```text
