@@ -9,6 +9,7 @@ import { fileURLToPath } from 'node:url';
 const root = fileURLToPath(new URL('../', import.meta.url));
 const mainPath = path.join(root, 'public', 'main.js');
 let js = await readFile(mainPath, 'utf8');
+js = js.replaceAll('17301252017', '17301250217');
 
 const wrap20 = (text) => {
   return String(text).split('\n').map((line) => {
@@ -22,7 +23,7 @@ const wrap20 = (text) => {
 const facts = [
   {
     sup: '基本信息', title: '高兵兵',
-    body: 'Go 后端开发工程师 / AI 全栈工程师 · 男 · 17301252017 · 844540467@qq.com · 北京',
+    body: '高兵兵\nGo 后端开发工程师 / AI 全栈工程师\n男\n17301250217\n844540467@qq.com\n北京',
     source: 'https://github.com/sweetsunnyflower',
   },
   {
@@ -109,6 +110,14 @@ for (const font of ['4ee96395e07a04577aab.ttf', '86e747d8b10ce7e39527.otf']) {
 
 js = js.replaceAll('See the source', '查看详情');
 
+const referenceBuild = 'const i=document.createElement("div");i.className="reference",e.appendChild(i);const n=document.createElement("div");n.className="reference__title",n.textContent=lm[t].title,i.appendChild(n);const r=document.createElement("source-link");r.setAttribute("data-href",lm[t].source),i.appendChild(r)';
+const referenceBuildNew = 'const i=document.createElement("div");i.className="reference",e.appendChild(i);const n=document.createElement("div");n.className="reference__title",n.textContent=lm[t].title,i.appendChild(n);const b=document.createElement("div");b.className="reference__body",b.textContent=lm[t].body,i.appendChild(b)';
+if (js.includes(referenceBuild)) {
+  js = js.split(referenceBuild).join(referenceBuildNew);
+} else if (!js.includes('reference__body')) {
+  throw new Error('Could not locate reference build logic');
+}
+
 const shuffle = 'let e=lm.map((e=>({value:e,sort:Math.random()}))).sort(((e,t)=>e.sort-t.sort)).map((({value:e})=>e));';
 if (js.includes(shuffle)) {
   js = js.split(shuffle).join('let e=lm.slice();');
@@ -123,13 +132,19 @@ if (start < 0 || end < 3) throw new Error('Could not locate lm data block');
 js = js.slice(0, start) + 'lm=' + JSON.stringify(wrapped) + ';' + js.slice(end);
 
 const welcome = 'Hello passengers and welcome aboard. Please sit back, relax, and enjoy the view while we tell you some of our favourite facts about the aviation world.';
-const legacyWelcome = '高兵兵 · Go 后端开发工程师 / AI 全栈工程师 · 男 · 17301252017 · 844540467@qq.com · 北京';
-const resumeWelcome = wrap20(legacyWelcome);
+const legacyWelcome = '高兵兵\nGo 后端开发工程师 / AI 全栈工程师\n男\n17301250217\n844540467@qq.com\n北京';
+const resumeWelcome = legacyWelcome;
+const oldWelcomePrefix = '高兵兵 · Go 后端开发工程师 / A\\nI 全栈工程师';
 if (js.includes(welcome)) {
   js = js.replace(welcome, resumeWelcome.replaceAll('\n', '\\n'));
 } else if (js.includes(legacyWelcome)) {
   js = js.replace(legacyWelcome, resumeWelcome.replaceAll('\n', '\\n'));
-} else if (js.includes('高兵兵 · Go 后端开发工程师')) {
+} else if (js.includes(oldWelcomePrefix)) {
+  const bodyStart = js.indexOf('body:"高兵兵');
+  const bodyEnd = js.indexOf('",bodyMaxWidth:4.8', bodyStart);
+  if (bodyStart < 0 || bodyEnd < 0) throw new Error('Could not locate legacy welcome body');
+  js = js.slice(0, bodyStart + 6) + resumeWelcome.replaceAll('\n', '\\n') + js.slice(bodyEnd);
+} else if (js.includes('高兵兵\\nGo 后端开发工程师') || js.includes('高兵兵 · Go 后端开发工程师')) {
   // 已经替换为中文欢迎语，保持幂等。
 } else {
   throw new Error('Could not locate welcome text');

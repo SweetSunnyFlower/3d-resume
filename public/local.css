@@ -1,6 +1,16 @@
 /* Local integration only. Original visual styling is preserved in main.css. */
 body { background: #495ed7; }
 [role="button"]:focus-visible { outline: 1px solid #fff; outline-offset: 10px; }
+.reference { flex-direction: column; align-items: flex-start; }
+.reference__body {
+  color: #fff;
+  font-family: "DM Sans", "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.55;
+  margin-top: 10px;
+  white-space: pre-line;
+  max-width: 100%;
+}
 .local-loading {
   position: fixed; inset: 0; z-index: 20000; display: grid; place-content: center;
   padding: 8vw; background: #495ed7; color: #fff; text-align: center;

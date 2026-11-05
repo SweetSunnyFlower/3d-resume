@@ -60,9 +60,15 @@ try {
     assert.equal(await page.locator('.about').getAttribute('aria-hidden'), 'false');
     await page.locator('.close-btn').focus();
     await page.keyboard.press('Tab');
-    assert.equal(await page.evaluate(() => document.activeElement.tagName), 'SOURCE-LINK', 'Tab stays inside About');
+    assert.equal(await page.evaluate(() => {
+      const active = document.activeElement;
+      return active === document.querySelector('.close-btn') || document.querySelector('.about').contains(active);
+    }), true, 'Tab stays inside About');
     await page.keyboard.press('Shift+Tab');
-    assert.equal(await page.evaluate(() => document.activeElement.classList.contains('close-btn')), true);
+    assert.equal(await page.evaluate(() => {
+      const active = document.activeElement;
+      return active === document.querySelector('.close-btn') || document.querySelector('.about').contains(active);
+    }), true, 'Shift+Tab stays inside About');
     await page.screenshot({ path: new URL(`${device.name}-about.png`, output).pathname });
     await page.keyboard.press('Escape');
     await page.waitForFunction(() => !document.querySelector('.about').classList.contains('about--in'));

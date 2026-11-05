@@ -1,7 +1,7 @@
 export const facts = [
   {
     sup: '基本信息', title: '高兵兵',
-    body: 'Go 后端开发工程师 / AI 全栈工程师 · 男 · 17301252017 · 844540467@qq.com · 北京',
+    body: 'Go 后端开发工程师 / AI 全栈工程师 · 男 · 17301250217 · 844540467@qq.com · 北京',
     source: 'https://github.com/sweetsunnyflower',
   },
   {
