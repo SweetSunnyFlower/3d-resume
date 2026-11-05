@@ -10,6 +10,7 @@ const root = fileURLToPath(new URL('../', import.meta.url));
 const mainPath = path.join(root, 'public', 'main.js');
 let js = await readFile(mainPath, 'utf8');
 js = js.replaceAll('17301252017', '17301250217');
+js = js.replaceAll('/fonts/noto-sans-sc.ttf', '/fonts/noto-sans-sc-subset.ttf');
 
 const wrap20 = (text) => {
   return String(text).split('\n').map((line) => {
@@ -100,7 +101,7 @@ const facts = [
 
 for (const font of ['4ee96395e07a04577aab.ttf', '86e747d8b10ce7e39527.otf']) {
   const from = `e.exports=i.p+"${font}"`;
-  const to = 'e.exports="/fonts/noto-sans-sc.ttf"';
+  const to = 'e.exports="/fonts/noto-sans-sc-subset.ttf"';
   if (js.includes(from)) {
     js = js.split(from).join(to);
   } else if (!js.includes(to)) {

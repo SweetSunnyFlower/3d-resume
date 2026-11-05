@@ -310,22 +310,22 @@
   {
     "path": "main.js",
     "origin": "https://atmos.leeroy.ca/main.js?1500c8f510f79dd7e2d4",
-    "bytes": 1267000,
-    "sha256": "873bea644e8f43b9f4716adeeb5c5ad8c583340c4f87a4c1d17ca7d852f26284",
+    "bytes": 1267014,
+    "sha256": "d95dbffa4ad7fcb0e133288b9c312fccd3fd144954a361636702477817163153",
     "originalSha256": "f578430b4136fcba3f5fbbf44e263eddeb3b8b5dfdc393d1cf1c89e03daf035b"
   },
   {
     "path": "index.html",
     "origin": "https://atmos.leeroy.ca/",
-    "bytes": 3931,
-    "sha256": "7c32308986e8494ce9c1ddfec213360200d60e62b8d7ba5078fe0490f798deb0",
+    "bytes": 3921,
+    "sha256": "9a0ae76f30fcd16c262a6c828174a6087d1d63b7f272f846b9a75d48438cba3c",
     "originalSha256": "4620b6bfb8135786fe2afc27167ea20d0fa8eef9155454b8f93e09fa65097441"
   },
   {
-    "path": "fonts/noto-sans-sc.ttf",
-    "origin": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/NotoSansSC%5Bwght%5D.ttf",
-    "bytes": 17772300,
-    "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
-    "originalSha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da"
+    "path": "fonts/noto-sans-sc-subset.ttf",
+    "origin": "local:subset-of-noto-sans-sc",
+    "bytes": 200268,
+    "sha256": "f8b1ee6337f0eaead32cccdaee60d6ae4926855a9ba84e7489e07767bf2e0530",
+    "originalSha256": "f8b1ee6337f0eaead32cccdaee60d6ae4926855a9ba84e7489e07767bf2e0530"
   }
 ]

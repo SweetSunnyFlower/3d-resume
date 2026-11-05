@@ -49,6 +49,56 @@ verification/            浏览器报告和截图
 
 正常使用只需要 `public/`、`server.mjs` 和 `package.json`。不要在没有父目录 `evidence/` 时运行 `prepare-assets.mjs`；它是保留的复现工具，启动与测试不需要重新下载资源。
 
+## 部署
+
+网站是纯静态项目，部署时只需要发布 `public/` 目录。
+
+### Nginx 示例
+
+```nginx
+server {
+    listen 80;
+    server_name resume.example.com;
+    root /var/www/resume/public;
+
+    location / {
+        try_files $uri $uri/ /index.html;
+    }
+
+    location ~* \.(js|css|ttf|woff2|glb|mp3|svg|png|json)$ {
+        expires 1y;
+        add_header Cache-Control "public, immutable";
+    }
+
+    location = /index.html {
+        add_header Cache-Control "no-cache";
+    }
+}
+```
+
+### Caddy
+
+```caddy
+resume.example.com {
+    root * /var/www/resume/public
+    encode gzip zstd
+    file_server
+}
+```
+
+### GitHub Pages / Vercel
+
+- GitHub Pages：把 `public/` 作为站点根目录，或通过 CI 上传 `public/` 内容。
+- Vercel / Netlify：`public` 为输出目录，无需构建命令。
+
+### 服务器建议
+
+- 开启 gzip / brotli 压缩；TTF、JS、GLB 都是静态资源，压缩收益明显。
+- HTML 不缓存或短缓存，其余静态资源设置一年长缓存并带版本号（当前资源 URL 已带 `?resume-20261105`）。
+- 确认 MIME 类型：`.glb` 为 `model/gltf-binary`、`.ttf` 为 `font/ttf`、`.mp3` 为 `audio/mpeg`。
+- 中文字体已子集化（约 196 KB），首屏资源总量已经可控；如需进一步瘦身，可再压缩音频或按需延迟加载音乐。
+- 网站需要 WebGL，访问端浏览器需开启图形加速；音乐在用户点击“开始查看”后才会播放，不受自动播放策略影响。
+
 ## 与线上页面的差异
 
 - 删除 Google Tag Manager 和 Cloudflare Rocket Loader，普通 defer 脚本即可运行。

@@ -16,7 +16,9 @@ const mime = {
 export function createStaticServer(root = publicRoot) {
   return createServer(async (request, response) => {
     response.setHeader('X-Content-Type-Options', 'nosniff');
-    response.setHeader('Cache-Control', 'no-cache');
+    const htmlRequest = new URL(request.url, 'http://localhost').pathname === '/' ||
+      new URL(request.url, 'http://localhost').pathname.endsWith('.html');
+    response.setHeader('Cache-Control', htmlRequest ? 'no-cache' : 'public, max-age=31536000, immutable');
     const fail = (status, message) => {
       response.writeHead(status, { 'Content-Type': 'text/plain; charset=utf-8' });
       response.end(request.method === 'HEAD' ? undefined : message);

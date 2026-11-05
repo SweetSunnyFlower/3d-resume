@@ -1,5 +1,7 @@
 // Small local integration layer. The original scene, typography and timing live in main.js.
 (() => {
+  fetch('/fonts/noto-sans-sc-subset.ttf').catch(() => {});
+
   const status = document.createElement('div');
   status.className = 'local-loading';
   status.setAttribute('role', 'status');
